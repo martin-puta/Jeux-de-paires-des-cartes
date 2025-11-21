@@ -254,3 +254,82 @@ h1 {
         box-shadow: 0 0 50px 20px #ff4500, 0 0 40px 10px #ffff00;
     }
 }
+@media (max-width: 600px) {
+    
+    .container {
+        padding: 20px; 
+        width: 95%; 
+        box-shadow: 6px 6px 0px var(--color-text); 
+    }
+
+   
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .score-panel {
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: 3px 3px 0px var(--color-text);
+    }
+
+    #status-message {
+        font-size: 1em;
+    }
+
+    .scores span {
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    .board {
+        grid-gap: 8px; 
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        font-size: 1.8em; 
+        max-width: 65px; 
+    }
+    
+    .card-face-down:hover {
+        transform: none; 
+        box-shadow: 4px 4px 0px var(--color-text); 
+    }
+
+    #restart-button {
+        padding: 10px 20px;
+        font-size: 1em;
+        box-shadow: 4px 4px 0px var(--color-text);
+    }
+    
+    #restart-button:hover, #restart-button:active {
+        transform: none; 
+        box-shadow: 4px 4px 0px var(--color-text);
+    }
+
+    .modal-content {
+        padding: 20px;
+        max-width: 90%;
+        box-shadow: 6px 6px 0px var(--color-text);
+    }
+    
+    .modal-content h2 {
+        font-size: 1.2em;
+    }
+    
+    .mode-button {
+        padding: 10px 20px;
+        margin: 8px;
+        font-size: 1em;
+        box-shadow: 3px 3px 0px var(--color-text);
+    }
+    
+    .mode-button:hover {
+        transform: none;
+        box-shadow: 3px 3px 0px var(--color-text);
+    }
+}
+
