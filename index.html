@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu des Paires (Memory) - 2 Joueurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="fireworks-container"></div>
+    
+    <div id="mode-selector" class="modal">
+        <div class="modal-content">
+            <h2>Choisissez votre mode de jeu</h2>
+            <button id="mode-solo" class="mode-button">Mode Solo (Contre la montre)</button>
+            <button id="mode-duo" class="mode-button">Mode Deux Joueurs</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1>🃏 Jeu des Paires</h1>
+
+        <div class="score-panel">
+            <div id="status-message"></div>
+            <div class="scores">
+                <span id="player1-score" class="active">Joueur 1: 0</span>
+                <span id="player2-score">Joueur 2: 0</span>
+                <span id="timer-display" class="hidden">Temps: 0s</span>
+            </div>
+        </div>
+
+        <div id="game-board" class="board">
+        </div>
+
+        <button id="restart-button">Recommencer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
